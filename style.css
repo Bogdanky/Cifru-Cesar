@@ -1,0 +1,43 @@
+body {
+    background-color: blanchedalmond;
+    display: flex;
+    font-family: cursive;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    height: 100vh; /* Makes the body take up the full viewport height */
+    margin: 0; /* Removes default browser margin */
+}
+
+.container {
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px teal; /* Fixed typo in box-shadow */
+    text-align: center;
+    width: 50%;
+}
+
+h1,h2{
+    color: #303030;
+}
+input{
+    margin: 10px 0;
+    padding: 10px;
+    width: 95%;
+}
+button{
+    width: 95%;
+    border: 0;
+    background-color: papayawhip;
+    color: black;
+    cursor: cell;
+}
+button:hover{
+    background-color: azure;
+    transition-delay: 0.5s;
+    transform: translateY(20px);
+}
+p{
+    font-size: 1.2em;
+    color: #595959;
+}
