@@ -13,6 +13,7 @@ function criptareCezar(text, cheie) {
                 litera = String.fromCharCode(((codASCII - 97 + cheie) % 26) + 97);
             }
         }
+        //aualeu
         rezultat += litera;
     } 
     console.log(rezultat, "afisat");
